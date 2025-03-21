@@ -4,9 +4,38 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MM power subsystem")
+    (date "2025-03-21")
+    (rev "v0.0")
+    (company "University Of Cape Town")
+    (comment 2 "MBZPON001")
+  )
+
   (lib_symbols
   )
 
+
+  (rectangle (start 13.335 13.335) (end 142.24 197.485)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 08b8063f-cae0-4438-a421-79abe3371ab4)
+  )
+
+  (text "Pontsho Mbizo" (at 154.94 16.51 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 288152dd-65f7-474c-916a-2e17f23ca1f4)
+  )
+  (text "Explain what you are doing using dividers and text"
+    (at 17.78 21.59 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6b755d60-e2ac-4323-be7f-837cffc0c3c0)
+  )
+  (text "You work this side, dont edit the size without asking first..."
+    (at 17.78 18.415 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dd3546b2-057d-4525-ad09-e1b6e24d78d5)
+  )
 
   (sheet_instances
     (path "/" (page "1"))
